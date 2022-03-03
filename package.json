@@ -1,0 +1,31 @@
+{
+  "name": "supermarket-shared-expenses",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.jss",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tashima42/supermarket-shared-expenses.git"
+  },
+  "author": "tashima42",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tashima42/supermarket-shared-expenses/issues"
+  },
+  "homepage": "https://github.com/Tashima42/supermarket-shared-expenses#readme",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "joi": "^17.6.0",
+    "splitwise": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15"
+  }
+}

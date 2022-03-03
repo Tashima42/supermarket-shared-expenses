@@ -1,0 +1,16 @@
+version: "3.1"
+
+services:
+  api:
+    build:
+      dockerfile: Dockerfile.dev
+      context: .
+    ports:
+      - 3010:3010
+    volumes:
+      - /app/node_modules
+      - ./:/app
+    environment:
+      - PORT=3104
+      - NF_PARSER_BASEURL=https://nfce.tashima.rocks
+      - NF_PARSER_APIKEY=
